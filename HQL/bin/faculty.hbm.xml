@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+   <hibernate-mapping>
+
+       <class name="com.klef.Faculty" table="faculty">
+
+       <id name="id" column="fid"></id>
+       <property name="name" column="fname"></property>
+       <property name="department" column="fdepartment"></property>
+       <property name="designation" column="fdesignation"></property>
+       <property name="age" column="fage"></property>
+       <property name="salary" column="fsalary"></property>
+
+       </class>
+    
+   </hibernate-mapping>
